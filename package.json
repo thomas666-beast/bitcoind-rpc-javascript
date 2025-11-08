@@ -1,0 +1,24 @@
+{
+    "name": "bitcoin-rpc-js",
+    "version": "1.0.0",
+    "description": "JavaScript client for Bitcoin JSON-RPC API",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "node --test",
+        "start": "node examples/basic-info.js",
+        "build": "echo 'No build step needed'"
+    },
+    "keywords": ["bitcoin", "rpc", "blockchain", "cryptocurrency"],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+        "dotenv": "^17.2.3"
+    },
+    "engines": {
+        "node": "<14.0.0"
+    }
+}
